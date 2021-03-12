@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(wallpaperbetter.jpg);
+    background-size: cover;
+
+}
+.box{
+    width: 450px;
+    background: rgba(137, 174, 189, 0.856);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 40 px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 3px;
+
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: #fff;
+    font-size: 60px;
+    transition: all ease-in-out 250 ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
+.box2{
+    width: 500px;
+    
+    padding: 1px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+.box2 button{
+    background: rgba(137, 174, 189, 0.082);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    transition: all ease-in-out 250 ms;
+}
+.box2 button:hover{
+    color: #b9b9b9;
+    transform: scale(0.9);
+}

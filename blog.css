@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(wallpaperbetter.jpg);
+    background-size: cover;
+
+}
+.box{
+    margin: auto;
+    margin-top: 5%;
+    width: 450px;
+    background: rgba(137, 174, 189, 0.856);
+    padding: 40px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    font-family:sans-serif;
+}
+.box img{
+    margin-top: 10%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.box2{
+    width: 500px;
+    
+    padding: 1px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+.box2 button{
+    background: rgba(137, 174, 189, 0.082);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    transition: all ease-in-out 250 ms;
+}
+.box2 button:hover{
+    color: #b9b9b9;
+    transform: scale(0.9);
+}
